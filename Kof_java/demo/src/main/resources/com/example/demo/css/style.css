@@ -1,0 +1,61 @@
+.selection-background {
+    -fx-background-color: linear-gradient(to bottom, #1a1a2e, #16213e);
+}
+
+.selection-content {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-padding: 30;
+    -fx-background-radius: 10;
+}
+
+.title {
+    -fx-font-size: 36px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.player-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+
+.character-option {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-padding: 10;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.character-option:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+
+.character-option.selected {
+    -fx-background-color: rgba(100, 149, 237, 0.5);
+    -fx-border-color: cornflowerblue;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+}
+
+.tooltip {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-wrap-text: true;
+    -fx-max-width: 200;
+}
+
+.start-button {
+    -fx-font-size: 20px;
+    -fx-padding: 10 30;
+    -fx-background-color: #e94560;
+    -fx-text-fill: white;
+}
+
+.start-button:hover {
+    -fx-background-color: #ff6b81;
+}
+
+.active {
+    -fx-background-color: #e94560;
+    -fx-text-fill: white;
+}

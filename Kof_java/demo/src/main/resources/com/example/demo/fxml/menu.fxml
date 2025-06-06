@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.171"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.demo.controller.MenuController"
+      fx:id="characterSelect"
+        styleClass="selection-background"
+        spacing="20"
+        alignment="CENTER">
+
+        <!-- 其他内容保持不变 -->
+
+<HBox spacing="20" alignment="CENTER">
+<Button fx:id="modePvP" text="玩家 vs 玩家" styleClass="active"/>
+<Button fx:id="modePvC" text="玩家 vs 电脑"/>
+</HBox>
+
+        <!-- 其他需要注入的组件也要修改 -->
+<HBox spacing="50" alignment="CENTER">
+<VBox fx:id="player1Selection" spacing="10">
+    <!-- 内容 -->
+</VBox>
+<VBox fx:id="player2Selection" spacing="10">
+    <!-- 内容 -->
+</VBox>
+</HBox>
+
+<Button fx:id="startButton" text="开始战斗" styleClass="start-button"/>
+        </VBox>
